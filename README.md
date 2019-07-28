@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About django-autoslug
 =====================
 
@@ -18,8 +14,15 @@ Summary: An automated slug field for Django
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/django-autoslug-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/django-autoslug-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2876&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/django-autoslug-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
