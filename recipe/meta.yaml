@@ -1,4 +1,4 @@
-{% set version = "1.9.4" %}
+{% set version = "1.9.5" %}
 
 package:
     name: django-autoslug
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/django-autoslug/django-autoslug-{{ version }}.tar.gz
-  sha256: aece8613eb173854462c656e91d81aa7ddfacaa49fb500d549f2143d1ce48721
+  sha256: 83dde7f41fd95066ba88d224a09096ac2fe955b56351828947c05b473ca88f1d
 
 build:
   number: 0
