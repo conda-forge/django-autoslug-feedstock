@@ -11,7 +11,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -23,11 +23,14 @@ requirements:
 
 test:
   commands:
+    - pip check
     - python -c "import django; from django.conf import settings; settings.configure(); django.setup(); import autoslug"
+  requires:
+    - pip
 
 about:
   home: http://bitbucket.org/neithere/django-autoslug/
-  license: LGPL-3.0
+  license: LGPL-3.0-or-later
   license_file: COPYING.LESSER
   summary: An automated slug field for Django
 
