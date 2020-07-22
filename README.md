@@ -5,7 +5,7 @@ Home: http://bitbucket.org/neithere/django-autoslug/
 
 Package license: LGPL-3.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: An automated slug field for Django
 
