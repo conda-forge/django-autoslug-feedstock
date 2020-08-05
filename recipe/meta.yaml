@@ -19,7 +19,7 @@ requirements:
     - pip
   run:
     - python
-    - django >=1.7.10,<2
+    - django >=1.11
 
 test:
   commands:
@@ -38,3 +38,4 @@ extra:
   recipe-maintainers:
     - ocefpaf
     - kwilcox
+    - kcemenike
